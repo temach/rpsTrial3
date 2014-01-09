@@ -1,0 +1,63 @@
+#####
+info
+type = Button, Reader, Form, ConfirmForm
+menu = main, credits, game, define_pl1, define_pl2, weapon_pl1, weapon_pl2, battle_result
+
+image = folder name where the images are located. Necessary for Button, optional for other classes.
+
+
+
+
+#####
+defaults for reader, form, button, confirm_form
+
+
+
+
+
+
+##
+type = Reader
+insert = define_pl1
+pos = (10,20),
+width = (200),
+fontsize = 13,
+height = 30,
+font = Arial,
+bg = (250,250,250),
+fgcolor = (0,0,0),
+hlcolor = (180,180,200),
+split = True
+text = """
+Hello dear people!, Today is the
+Day of Liberation from nonsence!
+""",
+
+
+
+##
+type=Form
+inset=define_pl2
+pos=(200,400),
+width=(100),
+fontsize=14,
+height=20,
+font=Arial,
+bg=(250,250,250),
+fgcolor=(0,0,0),
+hlcolor=(180,180,200),
+curscolor=(0xff0000),
+maxlines=1,
+
+###
+type=Form
+pos=(200,400),
+width=(100),
+fontsize=14,
+height=20,
+font=Arial,
+bg=(250,250,250),
+fgcolor=(0,0,0),
+hlcolor=(180,180,200),
+curscolor=(0xff0000),
+maxlines=1,
